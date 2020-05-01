@@ -1,0 +1,53 @@
+body{
+    /* background-image: linear-gradient(100deg, rgb(51, 58, 66), rgb(145, 145, 145));*/
+    background-image: linear-gradient(100deg, rgba(241, 205, 86, 0.900), rgba(255, 115, 0, 0.801));
+    color: white;
+}
+
+.logo-text {
+    display: inline-block;
+}
+
+.logo-container 
+{
+    text-align: center;
+}
+.logo-container > a {
+    color:  rgb(255, 115, 0);
+    text-decoration: none;
+    letter-spacing: 3vw;
+    font-size: 30px;
+    vertical-align: middle;
+}
+
+.button {
+    background-color: rgb(255, 115, 0);
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    font-size: 26px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: rgb(255, 115, 0);
+  }
+
+  .slider {
+    position: relative;
+  }
+
+  .slider .button-previous {
+    position: absolute;
+    float: left;
+    left: 0;
+    top: 50%;
+  }
+
+  .slider .button-next {
+    position: absolute;
+    float: right;
+    right: 0;
+    top: 50%;
+  }
